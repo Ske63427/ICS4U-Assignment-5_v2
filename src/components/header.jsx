@@ -12,8 +12,8 @@ function header() {
             <input type="text" placeholder="Search"/>
             </div>
             <div className="account">
-                <a className="button" id="login" href="#">Login</a>
-                <a className="button" id="register" href="#">Register</a>
+                {/* <a className="button" id="login" href="#">Login</a>
+                <a className="button" id="register" href="#">Register</a> */}
             </div>
         </div>
     )
