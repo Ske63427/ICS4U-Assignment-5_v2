@@ -1,18 +1,19 @@
 //import { useState } from "react";
+import './header.css'
 
 function header() {
 
     return (
-        <div>
-            <div class="logo">
-                <img id="logo" src="321 Movies Logo.png"/>
+        <div className="header">
+            <div className="logo">
+                <img id="logo" src="./src/321 Movies Logo.png"/>
             </div>
-            <div class="search">
+            <div className="search">
             <input type="text" placeholder="Search"/>
             </div>
-            <div class="account">
-                <a class="button" id="login" href="login.html">Login</a>
-                <a class="button" id="register" href="register.html">Register</a>
+            <div className="account">
+                <a className="button" id="login" href="#">Login</a>
+                <a className="button" id="register" href="#">Register</a>
             </div>
         </div>
     )

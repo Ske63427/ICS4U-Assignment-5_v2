@@ -1,0 +1,54 @@
+.hero {
+  /* grid-area: 2 / 1 / 5 / 8; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("heroImage.jpg");
+  /* opacity: 0.65; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.plan {
+  margin-top: 241px;
+  margin-bottom: 241px;
+  width: 250px;
+  padding-top: 160px;
+  padding-bottom: 160px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #163290;
+  color: white;
+}
+
+.plan > a {
+  background-color: #883bef;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+div.hero > h3 {
+  font-family: "Commissioner", sans-serif;
+}
+
+.hero > h4 {
+  font-family: "Noto Sans Tamil Supplement";
+}
+
+#plan-1 {
+  margin-right: 10%;
+  font-family: "Noto Sans Tamil Supplement";
+}
+
+#plan-2 {
+  font-family: "Noto Sans Tamil Supplement";
+}
+
+#plan-3 {
+  margin-left: 10%;
+  font-family: "Noto Sans Tamil Supplement";
+}

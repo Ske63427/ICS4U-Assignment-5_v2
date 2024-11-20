@@ -8,12 +8,9 @@ import Footer from './components/footer.jsx'
 function App() {
 
   return (
-    <div class="parent">
-    <Header/>
-    <Hero/>
-    <Feature/>
-    <Footer/>
- </div>
+    <div className="parent">
+      <Header/>
+    </div>
   )
 }
 

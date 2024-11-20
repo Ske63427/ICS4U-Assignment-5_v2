@@ -1,0 +1,51 @@
+.feature {
+  grid-area: 5 / 1 / 8 / 8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 250px;
+  height: 376px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: gray;
+}
+
+.poster {
+  height: 376px;
+  width: 250px;
+  border-radius: 5px;
+}
+
+.movies {
+  display: flex;
+  justify-content: center;
+}
+
+#movie-1 {
+  margin-right: 10%;
+  margin-left: 10px;
+  font-family: "Noto Sans Tamil Supplement";
+}
+
+#movie-2 {
+  font-family: "Noto Sans Tamil Supplement";
+}
+
+#movie-3 {
+  margin-left: 10%;
+  margin-right: 10px;
+  font-family: "Noto Sans Tamil Supplement";
+}
+
+#LEFT_BUTTON,
+#RIGHT_BUTTON {
+  font-size: 50px;
+  width: 50px;
+  background-color: #163290;
+  border-radius: 10px;
+}

@@ -3,8 +3,8 @@
 function footer() {
 
     return (
-        <div class="footer">
-        <div class="contact">
+        <div className="footer">
+        <div className="contact">
             <u>Contact Us</u><br/>
             (123)-456-7890<br/>
             contact@321Movies.ca<br/>
@@ -12,7 +12,7 @@ function footer() {
             Toronto, ON M4M 3B9<br/><br/>
             Aidan Samaroo
         </div>
-        <div class="about">
+        <div className="about">
             <u>About</u><br/>
             <a>FAQs</a><br/>
             <a href="socialMedia.html">Meta</a><br/>
@@ -21,7 +21,7 @@ function footer() {
             <a href="socialMedia.html">Tiktok</a><br/>
             <a href="socialMedia.html">YouTube</a><br/>
         </div>
-        <div class="other">
+        <div className="other">
             <u>Other</u><br/>
             <a>Terms of Use</a><br/>
             <a>Cookie Prefrences</a><br/>
