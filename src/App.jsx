@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="parent">
       <Header/>
+      <Hero/>
     </div>
   )
 }
